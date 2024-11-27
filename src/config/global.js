@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño de circuito esquemático mediante CAD',
+    descripcionCurso:
+      'Este componente formativo es una guía para el uso de las herramientas de la ventana <em>Board</em> en el diseño de circuitos impresos. Explica desde la ubicación de componentes hasta la configuración de pistas, abordando etapas clave como transformación, rectificación, regulación y filtrado. Está orientado a optimizar la organización y conexión en el diseño, garantizando un cumplimiento técnico adecuado.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ventana <em>Board</em>',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +87,106 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Ventana <em>Board</em>',
+      referencia:
+        'Unicrom. (s. f.). <em>Cómo hacer un circuito impreso (PCB) con EAGLE Layout</em> Editor.',
+      tipo: 'Documento',
+      link:
+        'https://unicrom.com/hacer-un-circuito-impreso-pcb-eagle-layout-editor/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Ventana <em>Board</em>',
+      referencia:
+        'Terminal Two. (2017). Autodesk Eagle #2 | Basics of Schematic Design.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=3WBYLrO-n-mg&list=PLrUmEvc07yBe5QHxpU2WFUGssFcbGZp&index=2',
+    },
+    {
+      tema: 'Ventana <em>Board</em>',
+      referencia:
+        'Universidad de los Andes (2018, mayo 11). <em>Guía para el uso de Eagle</em> (Versión 2.0, pp. 1-26).',
+      tipo: 'Documento',
+      link:
+        'https://electricayelectronica.uniandes.edu.co/sites/default/files/laboratorios/Generacin_de_archivos_GERBER_desde_EAGLE.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '<em>Layer</em>',
+      significado:
+        'Herramienta que permite seleccionar y editar capas en el diseño, como márgenes, pistas, alambres y nombres.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Text</em>',
+      significado:
+        'Función que abre una ventana para agregar texto en el diseño, utilizado para etiquetar y reconocer componentes.',
+    },
+    {
+      termino: '<em>Show</em>',
+      significado:
+        'Herramienta que resalta conexiones de pines, facilitando la identificación de las redes a las que pertenecen.',
+    },
+    {
+      termino: '<em>Auto</em>',
+      significado:
+        'Función que ajusta automáticamente las pistas en cada componente del diseño.',
+    },
+    {
+      termino: '<em>Route</em>',
+      significado:
+        'Herramienta que permite enrutar manualmente las pistas que no fueron ajustadas automáticamente.',
+    },
+    {
+      termino: '<em>Board</em>',
+      significado:
+        'Ventana en EAGLE donde se visualizan los componentes y conexiones de manera realista.',
+    },
+    {
+      termino: '<em>Schematic</em>',
+      significado:
+        'Ventana en EAGLE donde se elabora el esquema inicial de conexiones de los componentes.',
+    },
+    {
+      termino: '<em>tPlace</em>',
+      significado:
+        'Capa en la que se agregan textos y etiquetas para identificar los componentes en el diseño.',
+    },
+    {
+      termino: 'Enrutado',
+      significado:
+        'Proceso de creación de rutas o pistas que conectan los componentes en el diseño de un circuito impreso.',
+    },
+    {
+      termino: 'Bloque funcional',
+      significado:
+        'Conjunto de componentes organizados por función (transformación, regulación, filtrado, etc.) para mejorar el diseño.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Autodesk. (2024). EAGLE PCB <em>Design</em> and <em>Schematic</em> Software. Autodesk.',
+      link: 'https://www.autodesk.com/products/eagle/overview',
+    },
+    {
+      referencia:
+        'Franco, S. (2019). <em>Design with Operational Amplifiers and Analog Integrated Circuits</em>. McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Horowitz, P., & Hill, W. (2015). <em>The Art of Electronics</em> (3ra ed.). Cambridge University Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mehler, D. (2018). <em>Practical Electronics for Inventors</em> (4ta ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ulaby, F. T., & Maharbiz, M. M. (2020). <em>Circuit Analysis and Design</em>. Michigan Publishing.',
       link: '',
     },
   ],
@@ -150,8 +210,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Francisco Arnaldo Vargas Bermúdez',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +225,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -181,11 +241,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
