@@ -17,10 +17,10 @@
               p.mb-0 Este componente formativo presenta una guía práctica para el uso de las herramientas de la ventana #[em Board] en el #[em software] de diseño de circuitos impresos. Con este recurso, los usuarios podrán familiarizarse con los conceptos y funciones básicas necesarias para diseñar circuitos en la tarjeta, desde la ubicación de componentes hasta la configuración de pistas. La ventana #[em Board] permite visualizar los componentes de forma similar a su aspecto real, lo cual facilita la organización y conexión precisa de cada elemento en el diseño. 
             .col-lg-auto
               figure
-                  img(src="@/assets/curso/intro/1.png", alt="")
+                  img(src="@/assets/curso/intro/1.png", alt="").mt-4.mt-lg-0
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-auto
+          .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/intro/2.png", alt="")
           .col-lg

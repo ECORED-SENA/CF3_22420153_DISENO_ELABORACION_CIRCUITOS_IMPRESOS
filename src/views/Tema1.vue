@@ -13,10 +13,10 @@
         p.mb-0(data-aos="fade-right") Para acceder a la ventana de #[em BOARD] desde el #[em Schematic], se debe hacer clic en el botón #[em #[b “BOARD”]] ubicado en la barra de herramientas superior. En esta ventana aparecerán los componentes creados en el esquema, junto con sus conexiones. A diferencia del esquema, aquí los componentes se visualizan de manera similar a su aspecto real. Este botón también permite regresar a la vista #[em Schematic]. 
       .col-lg-auto
         figure(data-aos="fade-left")
-          img(src="@/assets/curso/tema1/1.svg").mx-auto
+          img(src="@/assets/curso/tema1/1.svg").mt-4.mt-lg-0
       
-    .bg-full-width.bg-fondo-1.pb-5
-      .px-4.px-lg-5.pt-0.pb-4.pb-lg-5
+    .bg-full-width.bg-fondo-1
+      .px-4.px-lg-5.pt-0.pb-4
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
@@ -31,7 +31,7 @@
             figure
               img(src="@/assets/curso/figuras/2.png", data-aos="zoom-in", alt="Presenta la disposición general de herramientas y áreas de trabajo en la ventana Board, incluyendo la selección de capas y tipos de elementos.").mx-auto
 
-    .titulo-tres.mb-5(data-aos="flip-up")
+    .titulo-tres.mb-4(data-aos="flip-up")
       h4 Ubicación de los componentes 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -39,16 +39,16 @@
         p.mb-0 Se recomienda posicionar los componentes en la ventana #[em BOARD] de forma similar a como se organizan en el esquema, manteniendo bloques funcionales, como el de transformación, regulación, rectificación y filtrado. Esta disposición facilita la creación de pistas y permite que los terminales queden alineados de forma directa y cercana, minimizando interferencias con otras conexiones. 
       .col-lg-auto
         figure
-          img(src="@/assets/curso/tema1/2.png").mx-auto
+          img(src="@/assets/curso/tema1/2.png").mt-4.mt-lg-0
 
-    .bg-full-width.bg-fondo-1.pb-5
-      .px-4.px-lg-5.pt-0.pb-4.pb-lg-5
-        .row.justify-content-center.align-items-center.mb-5
+    .bg-full-width.bg-fondo-1
+      .px-4.px-lg-5.pt-0.pb-4
+        .row.justify-content-center.align-items-center.mb-4
           .col-lg-10
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
               h5 Figura 3.
               span Ejemplo de componentes en la Ventana #[em Board] 
-            figure.mb-5
+            figure
               img(src="@/assets/curso/figuras/3.png", data-aos="zoom-in", alt="Muestra un ejemplo de disposición y conexión de componentes en la ventana Board").mx-auto
 
 
@@ -58,13 +58,13 @@
     p.mb-5 Al pasar el cursor sobre cada botón, se muestra su nombre. La tecla #[em ESCAPE] permite cancelar la acción en curso y volver a la ventana de diseño.
 
     .bg-full-width.bg-fondo-3
-      .px-4.px-lg-5.pt-0.pb-4.pb-lg-5
+      .px-4.px-lg-5.pt-0.pb-4
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
               h5 Figura 4.
               span Iconos de herramientas en la Ventana #[em Board] 
-            figure.mb-5
+            figure
               img(src="@/assets/curso/figuras/4.png", data-aos="zoom-in", alt="Ilustra los iconos y herramientas principales disponibles en la ventana Board, cada uno con su respectiva función. ").mx-auto
 
 

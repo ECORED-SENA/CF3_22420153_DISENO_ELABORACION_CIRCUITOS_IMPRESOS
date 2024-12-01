@@ -100,7 +100,7 @@ export default {
         'Terminal Two. (2017). Autodesk Eagle #2 | Basics of Schematic Design.',
       tipo: 'Video',
       link:
-        'https://www.youtube.com/watch?v=3WBYLrO-n-mg&list=PLrUmEvc07yBe5QHxpU2WFUGssFcbGZp&index=2',
+        'https://www.youtube.com/watch?v=3WBYL0-m-mg&list=PLr0mEvO7yBe6QHexsgU2WFUGesFFobGZp&index=3',
     },
     {
       tema: 'Ventana <em>Board</em>',
