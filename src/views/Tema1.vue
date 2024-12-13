@@ -23,7 +23,7 @@
               h5 Figura 1.
               span Cambio entre Ventanas de #[em Schematic] y #[em Board] en EAGLE  
             figure.mb-5
-              img(src="@/assets/curso/figuras/1.png", data-aos="zoom-in", alt="Describe la interfaz de EAGLE y cómo alternar entre las vistas de esquema (Schematic) y tarjeta (Board).").mx-auto
+              img(src="@/assets/curso/figuras/1.jpeg", data-aos="zoom-in", alt="Describe la interfaz de EAGLE y cómo alternar entre las vistas de esquema (Schematic) y tarjeta (Board).").mx-auto
 
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
               h5 Figura 2.
@@ -49,7 +49,7 @@
               h5 Figura 3.
               span Ejemplo de componentes en la Ventana #[em Board] 
             figure
-              img(src="@/assets/curso/figuras/3.png", data-aos="zoom-in", alt="Muestra un ejemplo de disposición y conexión de componentes en la ventana Board").mx-auto
+              img(src="@/assets/curso/figuras/3.jpeg", data-aos="zoom-in", alt="Muestra un ejemplo de disposición y conexión de componentes en la ventana Board").mx-auto
 
 
     .titulo-tres.mb-5(data-aos="flip-up")
@@ -65,7 +65,7 @@
               h5 Figura 4.
               span Iconos de herramientas en la Ventana #[em Board] 
             figure
-              img(src="@/assets/curso/figuras/4.png", data-aos="zoom-in", alt="Ilustra los iconos y herramientas principales disponibles en la ventana Board, cada uno con su respectiva función. ").mx-auto
+              img(src="@/assets/curso/figuras/4.jpeg", data-aos="zoom-in", alt="Ilustra los iconos y herramientas principales disponibles en la ventana Board, cada uno con su respectiva función. ").mx-auto
 
 
     .titulo-tres.mb-5(data-aos="flip-up")
