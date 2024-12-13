@@ -1,1 +1,1 @@
-module.exports = 'Diseño de circuito esquemático mediante CAD'
+module.exports = 'Diseño de Board mediante CAD'
