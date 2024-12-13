@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño de circuito esquemático mediante CAD',
+    componenteFormativo: 'Diseño de Board mediante CAD',
     descripcionCurso:
       'Este componente formativo es una guía para el uso de las herramientas de la ventana <em>Board</em> en el diseño de circuitos impresos. Explica desde la ubicación de componentes hasta la configuración de pistas, abordando etapas clave como transformación, rectificación, regulación y filtrado. Está orientado a optimizar la organización y conexión en el diseño, garantizando un cumplimiento técnico adecuado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
