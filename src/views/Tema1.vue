@@ -23,13 +23,13 @@
               h5 Figura 1.
               span Cambio entre Ventanas de #[em Schematic] y #[em Board] en EAGLE  
             figure.mb-5
-              img(src="@/assets/curso/figuras/1.jpeg", data-aos="zoom-in", alt="Describe la interfaz de EAGLE y cómo alternar entre las vistas de esquema (Schematic) y tarjeta (Board).").mx-auto
+              img(src="@/assets/curso/figuras/1.jpeg", data-aos="zoom-in", alt="Describe la interfaz de EAGLE y cómo alternar entre las vistas de esquema (Schematic) y tarjeta (Board).", style="max-width: 796px").mx-auto
 
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
               h5 Figura 2.
               span Vista General de la Ventana #[em Board] en  EAGLE
             figure
-              img(src="@/assets/curso/figuras/2.png", data-aos="zoom-in", alt="Presenta la disposición general de herramientas y áreas de trabajo en la ventana Board, incluyendo la selección de capas y tipos de elementos.").mx-auto
+              img(src="@/assets/curso/figuras/2.png", data-aos="zoom-in", alt="Presenta la disposición general de herramientas y áreas de trabajo en la ventana Board, incluyendo la selección de capas y tipos de elementos.", style="max-width: 1194px").mx-auto
 
     .titulo-tres.mb-4(data-aos="flip-up")
       h4 Ubicación de los componentes 
@@ -49,7 +49,7 @@
               h5 Figura 3.
               span Ejemplo de componentes en la Ventana #[em Board] 
             figure
-              img(src="@/assets/curso/figuras/3.jpeg", data-aos="zoom-in", alt="Muestra un ejemplo de disposición y conexión de componentes en la ventana Board").mx-auto
+              img(src="@/assets/curso/figuras/3.jpeg", data-aos="zoom-in", alt="Muestra un ejemplo de disposición y conexión de componentes en la ventana Board", style="max-width: 1053px").mx-auto
 
 
     .titulo-tres.mb-5(data-aos="flip-up")
@@ -65,7 +65,7 @@
               h5 Figura 4.
               span Iconos de herramientas en la Ventana #[em Board] 
             figure
-              img(src="@/assets/curso/figuras/4.jpeg", data-aos="zoom-in", alt="Ilustra los iconos y herramientas principales disponibles en la ventana Board, cada uno con su respectiva función. ").mx-auto
+              img(src="@/assets/curso/figuras/4.jpeg", data-aos="zoom-in", alt="Ilustra los iconos y herramientas principales disponibles en la ventana Board, cada uno con su respectiva función. ", style="max-width: 336px").mx-auto
 
 
     .titulo-tres.mb-5(data-aos="flip-up")
