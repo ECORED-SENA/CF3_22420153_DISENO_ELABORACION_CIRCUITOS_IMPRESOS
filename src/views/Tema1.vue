@@ -114,7 +114,7 @@
                 h4 #[em Route]    
                 p.mb-0 Permite enrutar manualmente las pistas que no se han ajustado automáticamente. 
               .col-sm-12.col-lg-4.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/slider-5.png', alt=' La imagen presenta  el enfoque en una conexión específica entre componentes, ilustrando el detalle en las rutas y nodos de conexión. ')
+                img(src='@/assets/curso/tema1/slider-5.jpeg', alt=' La imagen presenta  el enfoque en una conexión específica entre componentes, ilustrando el detalle en las rutas y nodos de conexión. ')
 </template>
 
 <script>
